@@ -1,7 +1,7 @@
 {
   "name": "boxagents",
   "version": "0.0.3",
-  "description": "agents",
+  "description": "Prebuilt AI Agents for any model provider *In development",
   "keywords": [
     "AI",
     "Agents",
@@ -25,7 +25,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "undici-types": "^6.20.0"
+    "ai": "^4.1.0",
+    "groq-sdk": "^0.12.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
